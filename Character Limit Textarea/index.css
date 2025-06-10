@@ -1,0 +1,30 @@
+body {
+  display: flex;
+  padding: 40px;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+#textarea {
+  padding: 10px;
+  font-size: 15px;
+  width: 500px;
+  height: 100px;
+}
+
+#footer {
+  width: 500px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 20px;
+}
+
+#totalChar {
+  color: green;
+}
+
+#charLeft {
+  color: red;
+}
