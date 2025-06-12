@@ -36,6 +36,9 @@ let fetchData = () => {
     button.classList.add("btn");
     button.addEventListener("click", () => {
       AccDesc.classList.toggle("desc-hide");
+      AccDesc.classList.contains("desc-hide")
+        ? (button.innerText = "Show")
+        : (button.innerText = "Hide");
     });
 
     AccHeader.appendChild(heading);
