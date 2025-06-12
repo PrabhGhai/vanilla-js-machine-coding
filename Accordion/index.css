@@ -1,0 +1,28 @@
+.main-acc-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.accordion-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+  background-color: rgb(231, 221, 221);
+  padding: 0px 30px;
+  margin-bottom: 20px;
+}
+.btn {
+  background-color: greenyellow;
+  border: none;
+  padding: 8px;
+  border-radius: 5px;
+}
+
+.btn:hover {
+  cursor: pointer;
+}
+.desc-hide {
+  display: none;
+}
